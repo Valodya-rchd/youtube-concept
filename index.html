@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -143,43 +144,43 @@
                     </li>
                 </ul>
             </nav>
-            
+
                 <h2 class="nav-title">Subscriptions</h2>
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Gussie Singleton</span>
+                            <img src="img/billy.webp" alt="Photo: Billy Herrington" class="nav-image">
+                            <span class="nav-text">Billy Herrington</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Nora Francis</span>
+                            <img src="img/van.jpg" alt="Photo: Van" class="nav-image">
+                            <span class="nav-text">Van Darkholm</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Belle Briggs</span>
+                            <img src="img/denny.png" alt="Photo: Denny Li" class="nav-image">
+                            <span class="nav-text">Denny Li</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Eunice Cortez</span>
+                            <img src="img/steve.jpg" alt="Photo: Steve" class="nav-image">
+                            <span class="nav-text">Steve</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Emma Hanson</span>
+                            <img src="img/ricardo.webp" alt="Photo: Ricardo Milos" class="nav-image">
+                            <span class="nav-text">Ricardo Milos</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">
-                            <img src="img/user.jpg" alt="" class="nav-image">
-                            <span class="nav-text">Leah Berry</span>
+                            <img src="img/rembo.jpg" alt="Photo: Rembo" class="nav-image">
+                            <span class="nav-text">Rembo</span>
                         </a>
                     </li>
                 </ul> 
@@ -195,8 +196,123 @@
                     </li>
                 </ul>
         </aside>
+        <main class="content">
+            <div class="channel">
+                <a href="#" class="channel-title">
+                    <img src="img/billy.webp" alt="Billy" class="channel-avatar">
+                    <span class="channel-text">Billy Herrington</span>
+                </a>
+
+                <div class="slider-buttons">
+                    <div class="channel-button channel-button-prev">
+                        <svg class="icon icon-left" width="28" height="28">
+                            <use xlink:href="img/icons.svg#left"></use>
+                        </svg>
+                    </div>
+                    <div class="channel-button channel-button-next">
+                        <svg class="icon icon-right" width="28" height="28">
+                            <use xlink:href="img/icons.svg#right"></use>
+                        </svg>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+               
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper channel-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/beach-running.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">4:15</span>
+                        </div>
+                        <h3 class="video-title">Beach running</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">1.2M views</span>
+                                <span class="video-date">2 years ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/drive.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">9:34</span>
+                        </div>
+                        <h3 class="video-title">Drive</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">4.8M views</span>
+                                <span class="video-date">6 years ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/heaven.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">1:47</span>
+                        </div>
+                        <h3 class="video-title">Heaven</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">6.7M views</span>
+                                <span class="video-date">3 years ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/bike.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">5:32</span>
+                        </div>
+                        <h3 class="video-title">Bike</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">765k views</span>
+                                <span class="video-date">8 years ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                    <<div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/gym.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">7:23</span>
+                        </div>
+                        <h3 class="video-title">Boss of the gym</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">4.4M views</span>
+                                <span class="video-date">8 months ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumb">
+                            <img src="img/cowboy.jpg" alt="" class="thumbnail">
+                            <span class="video-duration">23:22</span>
+                        </div>
+                        <h3 class="video-title">Cowboy</h3>
+                        <div class="video-info">
+                            <span class="video-counter">
+                                <span class="video-views">9.2M views</span>
+                                <span class="video-date">7 years ago</span>
+                            </span>
+                            <span class="video-channel">Billy Herrington</span>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </main>
     </div>
     <!-- /.container -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
 
 </html>
